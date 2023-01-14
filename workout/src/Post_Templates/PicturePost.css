@@ -1,0 +1,22 @@
+.grid_container{
+    display:grid;
+    row-gap: 1.5em;
+    grid-template-columns: auto
+}
+
+.rows{
+    display: grid;
+    grid-template-columns: 50% 30%;
+}
+
+.image {
+    float: right;
+    max-height: 300px;
+}
+
+.description_container{
+    padding: 2em;
+    text-align: left;
+}
+
+
