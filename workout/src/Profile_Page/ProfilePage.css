@@ -1,0 +1,163 @@
+.profile_container{
+	margin: auto;
+    width:1000px;
+    min-height: 440px;
+}
+
+.profile-image-container {
+	float: left;
+    width: 225px;
+    height: 225px;
+}
+
+.profile-image {
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+
+.profile-pic-upload {
+    margin-top: 1em;
+    margin-left: 0.5em;
+    width: 16em;
+    
+}
+
+.profile-pic-upload input{
+    display:none;
+}
+
+.profile-user-settings{
+    width: 600px;
+    height: 16em;
+    margin-left: 300px;
+    margin-top: 1.1rem;
+}
+
+.profile-user-name {
+    display:block;
+    float: left;
+   
+	font-size: 3.2rem;
+    font-weight: 500;
+    margin-left: 5px;
+   
+}
+.profile-bio {
+    max-width: 500px;
+    position: absolute;
+    background-size:30em;
+    background-color:mistyrose;
+    margin-top:30px;
+    border-radius: 20px;
+    padding-left:1.3em;
+    padding-right:13em;
+    padding-bottom:2.5em;
+	font-size: 1.6rem;
+	
+    line-height: 1.5;
+    top: 244px;
+    
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+.bio-text{
+    width: 400px
+}
+
+
+.profile-edit-btn {
+    display: inline-block;
+    float: left;
+	font: inherit;
+	background: none;
+	border: none;
+	color: inherit;
+	padding: 0;
+    cursor: pointer;
+    margin-top: 47px;
+}
+
+.profile-edit-btn:focus {
+	outline: 0.5rem auto rgb(0, 0, 0);
+}
+
+.profile-edit-btn {
+	font-size: 1.4rem;
+	line-height: 1.8;
+	border: 0.1rem solid rgb(0, 0, 0);
+    border-color: slateblue;
+	border-radius: 0.3rem;
+	padding: 0 2.4rem;
+	margin-left: 4rem;
+}
+
+
+.gallery{
+    display:grid;
+    padding:1em;
+    margin-top: 10px;
+    border-radius: 20px;
+    grid-column-gap:1em;
+    grid-row-gap: 1.5em;
+    grid-auto-rows: minmax(300px, auto);
+    grid-auto-columns: minmax(300px, auto);
+    grid-template-columns: repeat(3, 1fr);
+    background-color: powderblue;
+    min-height: 440px;
+}
+
+.gallery > div{
+    padding: 0.5em;
+    border-radius: 20px;
+}
+
+.profile-thumbnail{
+    width: 15em;
+    max-height: 170px;
+}
+
+.profile_thumbnail_container {
+    height: 170px
+}
+
+.profile_title_container {
+    height: 100px;
+    width: 270px;
+}
+    
+
+.profile-stats {
+    position:absolute;
+    top:190px;
+    margin-left: 300px;
+    background-color:mistyrose;
+    border-radius: 20px;
+}
+
+.profile-stats li {
+	display: inline-block;
+	font-size: 1.6rem;
+    
+	line-height: 1.5;
+	margin-right: 4rem;
+}
+
+.delete_btn_profile {
+    position:relative;
+    right: 0px;
+}
+
+.profile_your_posts {
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 50px
+}
+
+

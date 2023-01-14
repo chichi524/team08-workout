@@ -1,0 +1,129 @@
+.blog_edit_header{
+    background-color: white;
+    
+    height: 150px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 280px;
+    margin-right: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+}
+
+.blog_title{
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+}
+
+
+.workout_level{
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+}
+
+.blog_type{
+    background-color: white;
+    text-align: left;
+    margin-left: 280px;
+    margin-right: 280px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+}
+
+.blog_pic{
+    background-color: white;
+    text-align: left;
+    margin-left: 280px;
+    margin-right: 280px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+}
+
+.blog_pic input{
+    display: none;
+}
+
+.blog_text{
+    background-color: white;
+    text-align: left;
+    margin-left: 280px;
+    margin-right: 280px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+}
+
+.whole_page{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_title_input{
+    width: 90%;
+    margin-top: 10px;
+}
+
+.blog_text_input{
+    width: 90%;
+    margin-top: 10px;
+}
+
+.blog_button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+.cancel_button{
+    text-decoration: none;
+}
+
+.required {
+    color: red;
+}
+
+.backdrop {
+    z-index: 999;
+    color: black;
+    position: absolute;
+}
+
+.loader {
+    color: white
+}
+
+.file_name {
+    margin-left: 15px;
+}
