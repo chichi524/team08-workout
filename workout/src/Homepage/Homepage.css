@@ -1,0 +1,216 @@
+.left_filter{
+    float: left;
+    width: 170px;
+    padding-left: 1em;
+    background-color: white;
+}
+
+
+.main_container{
+    background-color: white;
+}
+
+
+.content_filter{
+    max-width: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+ul.cbox {
+    list-style: none;
+    padding-left: 1em;
+}
+
+ul.cbox li{
+    float: left;
+}
+
+.change {
+    margin-top: 200px;
+}
+
+ul.cbox li label{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #adadad;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;
+}
+
+ul.cbox li label {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+ul.cbox li label::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 12px;
+    padding: 2px 6px 2px 2px;
+    content: "\002b";
+    transition: transform .3s ease-in-out;
+}
+
+ul.cbox li input[type="checkbox"]:checked + label::before {
+    content: "\2713";
+    transform: rotate(-360deg);
+    transition: transform .3s ease-in-out;
+}
+
+ul.cbox li input[type="checkbox"]:checked + label {
+    border: 2px solid #1bdbf8;
+    background-color: #12bbd4;
+    color: #fff;
+    transition: all .2s;
+}
+
+#v input[type="checkbox"]:checked + label {
+    border: 2px solid #1bdbf8;
+    background-color: lightgreen;
+    color: #fff;
+    transition: all .2s;
+}
+
+#p input[type="checkbox"]:checked + label {
+    border: 2px solid #1bdbf8;
+    background-color: orange;
+    color: #fff;
+    transition: all .2s;
+}
+
+#b input[type="checkbox"]:checked + label {
+    border: 2px solid #1bdbf8;
+    background-color: lightcoral;
+    color: #fff;
+    transition: all .2s;
+}
+
+ul.cbox li input[type="checkbox"] {
+    display: absolute;
+}
+
+ul.cbox li input[type="checkbox"] {
+position: absolute;
+opacity: 0;
+}
+
+ul.cbox li input[type="checkbox"]:focus + label {
+border: 2px solid #e9a1ff;
+}
+
+.thumbnail{
+    max-width: 300px;
+    border-radius: 10px;
+    max-height: 180px;
+}
+
+.thumbnail_container {
+    height: 180px;
+}
+
+.main_content_container{
+    background-color: white;
+    margin-left: 200px;
+    display: grid;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    grid-column-gap:1em;
+    grid-row-gap: 1.5em;
+    grid-auto-rows: minmax(300px, auto);
+    grid-auto-columns: minmax(300px, auto);
+}
+
+.main_content_container > div{
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.blog{
+    background-color: lightcoral;
+}
+
+.picture{
+    background-color: orange;
+}
+
+.video{
+    background-color: lightgreen;
+}
+
+@media (min-width: 400px) {
+    .main_content_container { grid-template-columns: repeat(1, 1fr); }
+}
+
+@media (min-width: 900px) {
+    .main_content_container { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1250px) {
+    .main_content_container { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1600px) {
+    .main_content_container { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (min-width: 2000px) {
+    .main_content_container { grid-template-columns: repeat(5, 1fr); }
+}
+
+.like_block_main{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.like_num_main{
+    margin-top: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.short_description{
+    height: 70px;
+}
+
+.post_title_home {
+    height: 25px;
+}
+
+.main_container {
+    margin-top: 80px;
+}
+
+.post_title_home {
+    color: black;
+    transition: color 0.5s;
+}
+
+.post_title_home:hover {
+    color: rgb(6, 99, 156);
+}
+
+.short_description {
+    color: black;
+    transition: color 0.5s;
+}
+
+.short_description:hover {
+    color: rgb(6, 99, 156);
+}
